@@ -1,0 +1,59 @@
+.box{
+    border:2px solid black;
+    height: 200px;
+    width: 200px;
+    padding:10px;
+}
+.container-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+}
+.cell-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.number-main-cell{
+    background-color: aliceblue;
+    padding: 2px;
+    margin: 5px;
+    width: 25%;
+    height: 50px;
+    cursor: pointer;
+   
+}
+.number-cell{
+   width:100%;
+   height: 100%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+}
+.star-cell{
+    padding: 2px;
+    margin: 5px;
+    width: 25%;
+    height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+.selected{
+    background-color: rgb(228, 210, 50);
+}
+.completed{
+    background-color: rgba(38, 158, 38, 0.753);
+}
+.error{
+    background-color: rgb(153, 31, 31);
+}
